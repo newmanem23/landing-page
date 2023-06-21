@@ -107,8 +107,8 @@ button {
 
 .card-tile {
     flex: none;
-    height: 150px;
-    width: 150px;
+    aspect-ratio: 1/1;
+    width: 100%;
     border: 3px solid #3882f6;
     border-radius: 16px;
     margin-bottom: 16px;
@@ -119,18 +119,19 @@ button {
     background-color: #e5e7eb;
 }
 
-.quote-wrapper {
-    max-width: 600px;
+.quote-container div {
+    max-width: 800px;
     margin: auto;
+}
+
+.quote {
     font-size: 36px;
-    font-weight: light;
+    font-weight: 100;
     font-style: italic;
     color: #1f2937;
 }
 
 .author {
-    max-width: 600px;
-    margin: auto;
     text-align: right;
     font-weight: bold;
     font-size: 24px;
