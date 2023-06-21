@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    
 }
 
 body {
@@ -79,3 +78,32 @@ button {
     margin-bottom: 16px;
 }
 
+.info-header {
+    text-align: center;
+    padding: 32px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    gap: 24px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+}
+
+.card-tile {
+    flex: none;
+    height: 200px;
+    width: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
