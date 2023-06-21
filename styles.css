@@ -166,3 +166,13 @@ button {
     color: #f9faf8;
     font-size: 24px;;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #f9faf8;
+    background-color: #1F2937;
+    padding: 32px;
+}
