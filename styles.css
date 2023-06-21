@@ -137,3 +137,32 @@ button {
     font-size: 24px;
     margin-top: 16px;
 }
+
+.action-container {
+    padding: 16px;
+}
+
+.action {
+    margin: 48px auto;
+    max-width: 1000px;
+    background-color: #3882f6;
+    padding: 24px 72px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.action .secondary {
+    margin-bottom: 0;
+}
+
+.action button {
+    border: 3px solid white;
+}
+
+.call {
+    font-weight: bold;
+    color: #f9faf8;
+    font-size: 24px;;
+}
