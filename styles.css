@@ -18,17 +18,62 @@ ul {
     font-size: 18px;
 }
 
+button {
+    background-color: #3882f6;   
+    padding: 8px 36px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
 .header {
-    display: flex;
-    justify-content: space-around;
     background-color: #1F2937;
     margin: 0;
-    padding: 8px;
+    padding: 0 200px;
     align-items: center;
 }
 
-.header-logo {
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
 }
+
+.header-content {
+    display: flex;
+    padding: 32px 0;
+    gap: 24px;
+}
+
+.header-info {
+    flex: 1 1 50%;
+}
+
+.image {
+    flex: 1 1 50%;
+    background-color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-main {
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+    margin-bottom: 16px;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 16px;
+}
+
