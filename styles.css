@@ -28,7 +28,6 @@ button {
 .header {
     background-color: #1F2937;
     margin: 0;
-    padding: 0 200px;
     align-items: center;
 }
 
@@ -37,6 +36,8 @@ button {
     justify-content: space-between;
     align-items: center;
     padding: 8px;
+    margin: auto;
+    max-width: 1000px;
 }
 
 .logo {
@@ -49,6 +50,8 @@ button {
     display: flex;
     padding: 48px 0;
     gap: 24px;
+    margin: auto;
+    max-width: 1000px;
 }
 
 .header-info {
@@ -89,21 +92,26 @@ button {
     display: flex;
     justify-content: center;
     padding: 32px;
-    gap: 24px;
+    gap: 32px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 150px;
     text-align: center;
 }
 
 .card-tile {
     flex: none;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border: 3px solid #3882f6;
     border-radius: 16px;
     margin-bottom: 16px;
+}
+
+.quote {
+    padding: 32px 25%;
+    background-color: #e5e7eb;
 }
